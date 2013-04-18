@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <style type="text/css">
+        html {
+            height: 100px;
+        }
+
+        body {
+            height: 100px;
+            width: 200px;
+            margin: 0;
+            padding: 0;
+            background-color: aqua;
+
+        }
+
+        #map-canvas {
+            height: 100%
+        }
+    </style>
+
+    <script type="text/javascript">
+        function button_click() {
+            alert("clicked");
+        }
+
+
+    </script>
+</head>
+<body>
+
+<button type="submit" onclick="close();">Close</button>
+<button type="submit" onclick="submit();">Submit</button>
+<h1>Shop Name</h1>
+
+<h2>Door</h2>
+
+<div>
+    <button type="submit" onclick="button_click();"><img src="img/open.png" height="24px" width="24px"></button>
+    <button type="submit"><img src="img/closed.png" height="24px" width="24px"></button>
+</div>
+<div><input type="checkbox" name="settings" value="auto">Automatic <input type="checkbox" name="settings"
+                                                                          value="nodoor">No Doors <input type="checkbox"
+                                                                                                         name="settings"
+                                                                                                         value="propped">Automatic
+    but doors propped open
+</div>
+<h2>Options</h2>
+
+<div>
+    <button type="submit" onclick="button_click();"><img src="img/camera.png" height="24px" width="24px"></button>
+    <button type="submit"><img src="img/note.png" height="24px" width="24px"></button>
+    <button type="submit"><img src="img/problem.png" height="24px" width="24px"></button>
+</div>
+</body>
+</html>
